@@ -17,6 +17,10 @@ ul {
     display: inline;
 }
 
+.nav-item{
+    margin: 0px 8px;
+}
+
 .container {
     margin-top: 30px;
     left: 40%;
