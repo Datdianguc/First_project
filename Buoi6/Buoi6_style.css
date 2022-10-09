@@ -12,7 +12,7 @@ a:visited {
 
 ul {
     list-style-type: none;
-    margin: 20px;
+    margin: 0px 20px;
     padding: 20px;
     display: inline;
 }
@@ -33,6 +33,7 @@ input[type=password] {
     border: 1px solid #ccc;
     box-sizing: border-box;
     border-radius: 3px;
+
 }
 
 button {
@@ -87,9 +88,14 @@ h1 {
 
 h4 {
     display: flex;
-    justify-content: center;
     color: #5CB85C;
     text-decoration: none;
+    justify-content: center;
+}
+
+li{
+    display: flex;
+    justify-content: space-around;
 }
 
 body{
