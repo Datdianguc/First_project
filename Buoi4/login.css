@@ -1,13 +1,26 @@
+.container-upper {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 89px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 20px;
+    display: inline;
+}
 
 .container {
     margin-top: 30px;
-    position: fixed;
+    /* position: fixed; */
     left: 40%;
     bottom: 50%;
     line-height: 1;
 }
 
-input[type=text], input[type=password] {
+input[type=text],
+input[type=password] {
     width: 100%;
     padding: 10px 20px;
     margin: 8px 0;
@@ -23,4 +36,22 @@ button {
     background-color: rgb(45, 185, 110);
     cursor: pointer;
     border: 0px;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(#485563, #29323c);
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 5px 5px 5px rgb(0 0 0 / 40%);
+    z-index: 999;
+    color: #fff;
+    font-size: 1.5rem;
+    display: block;
+}
+
+.form{
+    justify-content: center;
 }
