@@ -10,6 +10,10 @@ a:visited {
     color: #5CB85C;
 }
 
+.nav-item{
+    margin: 0px 8px;
+}
+
 ul {
     list-style-type: none;
     margin: 20px;
