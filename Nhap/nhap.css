@@ -1,0 +1,107 @@
+.container-upper {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 89px;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #5CB85C;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px 20px;
+    padding: 20px;
+    display: inline;
+}
+
+.nav-item{
+    margin: 0px 8px;
+}
+
+.container {
+    margin-top: 30px;
+    left: 40%;
+    bottom: 50%;
+    line-height: 1;
+}
+
+input[type=text],
+input[type=password] {
+    width: 50%;
+    padding: 0.75rem 1.5rem;
+    margin: 8px 380px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 3px;
+
+}
+
+button {
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+    background-color: #5CB85C;
+    border-color: #5CB85C;
+    cursor: pointer;
+    border: 0px;
+    width: 120px;
+    height: 50px;
+    margin-left: 67%;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(#485563, #29323c);
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 5px 5px 5px rgb(0 0 0 / 40%);
+    z-index: 999;
+    color: #fff;
+    font-size: 1.5rem;
+    display: block;
+}
+
+.form {
+    justify-content: center;
+}
+
+.heading {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 1.5rem !important;
+    padding-top: 0rem !important;
+    margin-right: 2rem !important;
+    color: #5CB85C !important;
+}
+
+h1 {
+    display: flex;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    justify-content: center;
+}
+
+h4 {
+    display: flex;
+    color: #5CB85C;
+    text-decoration: none;
+    justify-content: center;
+}
+
+li{
+    display: flex;
+    justify-content: space-around;
+}
+
+body{
+    background-image: url("./dodge-dodge-challenger-srt-dodge-challenger-dodge-challenger-srt-hellcat-hd-wallpaper-preview.jpg");
+}
