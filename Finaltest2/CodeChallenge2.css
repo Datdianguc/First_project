@@ -1,0 +1,48 @@
+button {
+    background-color: #9efe39;
+    border-radius: 3px;
+    border-color: #9efe39;
+}
+
+body {
+    background-color: #BFC8E6;
+    margin: 0px;
+}
+
+.top-container {
+    background-color: #dbffff;
+    position: absolute;
+    width: 75.8%;
+    height: 69.16%;
+    margin: 8% 12%;
+}
+
+.box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    background-color: #ae1e1c;
+    font-size: 125px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.content {
+    position: absolute;
+    margin: 22% 22%;
+    padding-left: 5%;
+    font-size: 25px;
+}
+
+.form {
+    position: absolute;
+    margin: 30%;
+}
