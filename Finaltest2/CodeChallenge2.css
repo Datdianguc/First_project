@@ -1,12 +1,6 @@
-button {
-    background-color: #9efe39;
-    border-radius: 3px;
-    border-color: #9efe39;
-}
-
 body {
-    background-color: #BFC8E6;
     margin: 0px;
+    background-image: url("https://wallpaperaccess.com/full/3704389.png");
 }
 
 .top-container {
@@ -45,4 +39,18 @@ body {
 .form {
     position: absolute;
     margin: 30%;
+}
+
+#Number {
+    font-size: 15px;
+    width: 250px;
+    height: 70px;
+}
+
+button {
+    background-color: #9efe39;
+    border-radius: 3px;
+    border-color: #9efe39;
+    font-size: 30px;
+    padding: 12px 14px;
 }
