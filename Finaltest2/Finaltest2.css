@@ -1,0 +1,20 @@
+#start {
+    margin: 10px;
+}
+
+#end {
+    margin: 10px;
+}
+
+#StringStart {
+    margin: 10px;
+}
+
+#StringEnd {
+    margin: 10px;
+}
+
+button {
+    background-color: aqua;
+    border-radius: 3px;
+}
