@@ -10,6 +10,7 @@ function GuessLuckyNumber() {
         console.log("Số lượt đoán còn lại = " + lives);
         if (lives == 0){
         console.log("Bạn thua");
+        setTimeout(location.reload(),10000);
     }
     } else {
         console.log("Chúc mừng bạn đã trúng thưởng");
